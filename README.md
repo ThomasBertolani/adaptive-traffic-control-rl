@@ -1,10 +1,5 @@
 # Adaptive Traffic Signal Control using Reinforcement Learning
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20RL-ee4c2c)
-![Gymnasium](https://img.shields.io/badge/Gymnasium-Custom%20Env-black)
-![Status](https://img.shields.io/badge/Status-Complete-green)
-
 A comparative study applying **Tabular Reinforcement Learning** and **Deep Reinforcement Learning** to optimize traffic signal control in a non-stationary, stochastic environment. This project demonstrates that Deep RL can outperform state-of-the-art static heuristics by adapting to platoon dynamics in real-time.
 
 ---
