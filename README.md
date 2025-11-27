@@ -74,4 +74,4 @@ jupyter notebook Report.ipynb
 ```
 
 ## 👤 Author
-**[Thomas Bertolani]** *Artificial Intelligenge Engineering student @ UniMoRe* [LinkedIn](https://www.linkedin.com/in/thomasbertolani/)
+**Thomas Bertolani** *Artificial Intelligenge Engineering student @ UniMoRe* [LinkedIn](https://www.linkedin.com/in/thomasbertolani/)
