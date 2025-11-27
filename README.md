@@ -1,13 +1,13 @@
 # Adaptive Traffic Signal Control using Reinforcement Learning
 
-A comparative study applying **Tabular Reinforcement Learning** and **Deep Reinforcement Learning** to optimize traffic signal control in a non-stationary, stochastic environment. This project demonstrates that Deep RL can outperform state-of-the-art static heuristics by adapting to platoon dynamics in real-time.
+A comparative study applying **Tabular Reinforcement Learning** and **Deep Reinforcement Learning** to optimize traffic signal control in a non-stationary, stochastic environment. This project demonstrates that Deep RL can outperform static heuristics by adapting to platoon dynamics in real-time.
 
 ---
 
 ## 🚦 The Problem
-Traditional traffic signals rely on **Fixed Cycle** timers (stable but inefficient) or **Reactive Heuristics** (adaptive but unstable). Real-world traffic arrives in coordinated platoons, and switching lights too frequently incurs a capacity penalty.
+Traditional traffic signals rely on **Fixed Cycle** timers (stable but inefficient) or **Reactive Heuristics** (responsive but unstable). Real-world traffic arrives in coordinated platoons, and switching lights too frequently incurs a capacity penalty.
 
-**The Goal:** Train an RL agent to minimize queue lengths while maintaining stability, effectively solving the trade-off between reactivity and throughput.
+**The Goal:** Train a RL agent to minimize queue lengths while maintaining stability, effectively solving the trade-off between reactivity and throughput.
 
 ## 🧩 Custom Environment
 I designed a custom Gymnasium environment (`TrafficIntersectionEnv`) to model realistic traffic physics:
@@ -23,7 +23,7 @@ I designed a custom Gymnasium environment (`TrafficIntersectionEnv`) to model re
 
 ## 📈 View the Full Report
 
-The complete scientific analysis—including hyperparameter sweeps, learning curves, and the "Sim-to-Real" robustness analysis—is detailed in the project notebook.
+The complete scientific analysis, including hyperparameter sweeps, learning curves, and performance benchmarking, is detailed in the project notebook.
 
 ### [📄 Click here to view the Report (Jupyter Notebook)](report.ipynb)
 *(Also available as an HTML export in the repository)*
@@ -38,7 +38,7 @@ If you are curious about the implementation details or want to test the agents w
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/yourusername/adaptive-traffic-rl.git](https://github.com/yourusername/adaptive-traffic-rl.git)
+git clone https://github.com/ThomasBertolani/adaptive-traffic-control-rl.git
 cd adaptive-traffic-rl
 ```
 
